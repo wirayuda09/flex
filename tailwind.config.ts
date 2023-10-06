@@ -45,6 +45,9 @@ const config: Config = {
 			minHeight: {
 				30: '30px',
 			},
+			maxWidth: {
+				350: '350px',
+			},
 		},
 	},
 	plugins: [],
