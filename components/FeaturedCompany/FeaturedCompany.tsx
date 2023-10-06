@@ -8,7 +8,7 @@ export default function FeaturedCompany() {
 			{featuredCompanies.map((featuredCompany) => (
 				<div
 					key={featuredCompany}
-					className='flex min-h-[30px] w-full min-w-[200px] items-center border-l border-lineGray pl-5 md:px-16'
+					className='flex min-h-30 w-full min-w-200 items-center border-l border-lineGray pl-5 md:px-16'
 				>
 					<Image
 						className='w-full object-contain'

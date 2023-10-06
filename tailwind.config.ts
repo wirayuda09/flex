@@ -17,6 +17,7 @@ const config: Config = {
 				lightWhite: '#EBF1FF',
 				lightBlue: '#B3C0DE',
 				lightBlue2: '#26B1FF',
+				lightBlue3: '#3549FF',
 				primaryBlue: '#27B1FF',
 				primaryBlue2: '#1557FF',
 				primaryLightBlue: '#1F4290',
@@ -25,6 +26,7 @@ const config: Config = {
 				lineGray: '#26293C',
 				lightGray: '#C2CDE7',
 				gray: '#8A96B1',
+				orange: '#FF603E',
 			},
 			fontSize: {
 				28: '28px',
@@ -36,6 +38,12 @@ const config: Config = {
 			},
 			gap: {
 				60: '60px',
+			},
+			minWidth: {
+				200: '200px',
+			},
+			minHeight: {
+				30: '30px',
 			},
 		},
 	},

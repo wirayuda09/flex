@@ -1,4 +1,5 @@
 import {
+	CustomizableAssets,
 	FeaturedCompany,
 	FinancialSnapshot,
 	Hero,
@@ -12,6 +13,7 @@ export default function Home() {
 			<FeaturedCompany />
 			<Statistic />
 			<FinancialSnapshot />
+			<CustomizableAssets />
 		</>
 	);
 }
