@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html lang='en'>
 			<body
-				className={`${inter.className} bg-dark bg-[url("/assets/images/Shapes.png")] bg-right-top bg-no-repeat `}
+				className={`${inter.className} mx-auto h-full w-full max-w-[1440px] bg-dark bg-[url("/assets/images/Shapes.png")] bg-right-top bg-no-repeat`}
 			>
 				<Navbar />
 				{children}
