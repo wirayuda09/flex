@@ -8,6 +8,7 @@ import {
 	FeaturedCompany,
 	FinancialSnapshot,
 	CustomizableAssets,
+	Integration,
 } from '@/components';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
 			<NumbersData />
 			<Testimonial />
 			<Pricing />
+			<Integration />
 		</>
 	);
 }
