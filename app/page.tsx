@@ -6,6 +6,7 @@ import {
 	Hero,
 	NumbersData,
 	Statistic,
+	Testimonial,
 } from '@/components';
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 			<CustomizableAssets />
 			<Features />
 			<NumbersData />
+			<Testimonial />
 		</>
 	);
 }

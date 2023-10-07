@@ -44,10 +44,14 @@ const config: Config = {
 			},
 			minWidth: {
 				200: '200px',
+				423: '423px',
 			},
 			minHeight: {
-				371: '371px',
 				30: '30px',
+				300: '300px',
+				371: '371px',
+				400: '400px',
+				500: '500px',
 			},
 			maxWidth: {
 				200: '200px',

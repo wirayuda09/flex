@@ -6,3 +6,4 @@ export { default as FinancialSnapshot } from '@/components/FinancialSnapshot/Fin
 export { default as CustomizableAssets } from '@/components/CustomizableAssets/CustomizableAssets';
 export { default as Features } from '@/components/Features/Features';
 export { default as NumbersData } from '@/components/NumbersData/NumbersData';
+export { default as Testimonial } from '@/components/Testimonial/Testimonial';
