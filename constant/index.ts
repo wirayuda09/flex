@@ -199,3 +199,27 @@ export const pricingPlans = [
 		btnText: 'Get Started',
 	},
 ];
+
+export const articles = [
+	{
+		categories: ['SaaS', 'development'],
+		title: 'Unlocking the potential of SaaS: A journey to business success',
+		createdAt: 'July 17, 2023',
+		minutes: '3 min read',
+		thumbnail: '/assets/images/article-1.png',
+	},
+	{
+		categories: ['nocode', 'tools'],
+		title: 'Webflow vs Framer - Which one is best for you and your business.',
+		createdAt: 'July 12, 2023',
+		minutes: '4 min read',
+		thumbnail: '/assets/images/article-2.png',
+	},
+	{
+		categories: ['organization'],
+		title: 'The 3 Best Social Media Analytics Tools For Competitor Analysis',
+		createdAt: 'July 19, 2023',
+		minutes: '4 min read',
+		thumbnail: '/assets/images/article-3.png',
+	},
+];
