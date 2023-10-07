@@ -9,6 +9,8 @@ const config: Config = {
 	theme: {
 		extend: {
 			backgroundImage: {
+				linear:
+					'linear-gradient(99deg, rgba(43, 53, 87, 0.00) 18.22%, rgba(26, 31, 54, 0.40) 47.59%, rgba(19, 20, 38, 0.00) 82.33%)',
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic':
 					'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -29,6 +31,7 @@ const config: Config = {
 				orange: '#FF603E',
 			},
 			fontSize: {
+				15: '15px',
 				28: '28px',
 				46: '46px',
 				64: '64px',
@@ -43,9 +46,11 @@ const config: Config = {
 				200: '200px',
 			},
 			minHeight: {
+				371: '371px',
 				30: '30px',
 			},
 			maxWidth: {
+				200: '200px',
 				350: '350px',
 			},
 		},
