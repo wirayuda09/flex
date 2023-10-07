@@ -1,12 +1,13 @@
 import {
-	CustomizableAssets,
-	FeaturedCompany,
-	Features,
-	FinancialSnapshot,
 	Hero,
-	NumbersData,
+	Pricing,
+	Features,
 	Statistic,
+	NumbersData,
 	Testimonial,
+	FeaturedCompany,
+	FinancialSnapshot,
+	CustomizableAssets,
 } from '@/components';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
 			<Features />
 			<NumbersData />
 			<Testimonial />
+			<Pricing />
 		</>
 	);
 }
