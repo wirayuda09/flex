@@ -99,3 +99,103 @@ export const testimonialsData = [
 		profile: '/assets/images/avatar-3.png',
 	},
 ];
+
+export const pricingPlans = [
+	{
+		title: 'Basic',
+		subTitle: 'Unlimited projects and priority support.',
+		plan: ['Free'],
+		lists: [
+			{
+				title: 'Unlimited projects',
+				include: true,
+			},
+			{
+				title: 'Unlimited Pages',
+				include: true,
+			},
+			{
+				title: 'Email & live chat support',
+				include: true,
+			},
+			{
+				title: 'Advanced management',
+				include: false,
+			},
+			{
+				title: 'Advanced collaboration',
+				include: false,
+			},
+			{
+				title: 'SSO with Google Workspace',
+				include: false,
+			},
+		],
+		btnText: 'Buy a Template',
+	},
+	{
+		title: 'ENTERPRICE',
+		subTitle: 'Unlimited projects, priority support and more.',
+		plan: ['$79', '.99 per month'],
+		tag: 'Popular',
+		lists: [
+			{
+				title: 'Unlimited projects',
+				include: true,
+			},
+			{
+				title: 'Unlimited Pages',
+				include: true,
+			},
+			{
+				title: 'Email & live chat support',
+				include: true,
+			},
+			{
+				title: 'Advanced management',
+				include: true,
+			},
+			{
+				title: 'Advanced collaboration',
+				include: true,
+			},
+			{
+				title: 'SSO with Google Workspace',
+				include: true,
+			},
+		],
+		btnText: 'Get Started',
+	},
+	{
+		title: 'BUSINESS',
+		subTitle: 'Unlimited projects, priority support and more.',
+		plan: ['$179', '.99 per month'],
+		lists: [
+			{
+				title: 'Unlimited projects',
+				include: true,
+			},
+			{
+				title: 'Unlimited Pages',
+				include: true,
+			},
+			{
+				title: 'Email & live chat support',
+				include: true,
+			},
+			{
+				title: 'Advanced management',
+				include: true,
+			},
+			{
+				title: 'Advanced collaboration',
+				include: true,
+			},
+			{
+				title: 'SSO with Google Workspace',
+				include: true,
+			},
+		],
+		btnText: 'Get Started',
+	},
+];
