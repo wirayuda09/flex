@@ -78,3 +78,24 @@ export const numbersData = [
 		text: 'Money flows users',
 	},
 ];
+
+export const testimonialsData = [
+	{
+		text: 'Amazing SaaS platform! Streamlined our operations and boosted productivity.',
+		author: 'John Doe',
+		role: 'Product Designer at Rimuut',
+		profile: '/assets/images/avatar-1.png',
+	},
+	{
+		text: 'Game-changing SaaS solution! Boosted efficiency and data-driven insights. Highly recommended!',
+		author: 'Mia Baker',
+		role: 'Marketing Manager at Behance',
+		profile: '/assets/images/avatar-2.png',
+	},
+	{
+		text: 'This SaaS platform streamlined our operations and boosted productivity. Highly recommend!',
+		author: 'Allison Walt',
+		role: 'Product Manager at Dribbble',
+		profile: '/assets/images/avatar-3.png',
+	},
+];

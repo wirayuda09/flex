@@ -7,6 +7,7 @@ export default function FinancialSnapshot() {
 			<LeftContent />
 			<div className='w-full max-w-lg'>
 				<Image
+					className='w-full object-contain'
 					src={'/assets/images/Cards.png'}
 					width={500}
 					height={500}
