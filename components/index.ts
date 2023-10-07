@@ -9,3 +9,4 @@ export { default as FeaturedCompany } from '@/components/FeaturedCompany/Feature
 export { default as FinancialSnapshot } from '@/components/FinancialSnapshot/FinancialSnapshot';
 export { default as CustomizableAssets } from '@/components/CustomizableAssets/CustomizableAssets';
 export { default as Integration } from '@/components/Integration/Integration';
+export { default as Articles } from '@/components/Articles/Articles';
