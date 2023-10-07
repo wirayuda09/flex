@@ -4,6 +4,7 @@ import {
 	Features,
 	FinancialSnapshot,
 	Hero,
+	NumbersData,
 	Statistic,
 } from '@/components';
 
@@ -16,6 +17,7 @@ export default function Home() {
 			<FinancialSnapshot />
 			<CustomizableAssets />
 			<Features />
+			<NumbersData />
 		</>
 	);
 }

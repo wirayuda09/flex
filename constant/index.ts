@@ -63,3 +63,18 @@ export const features = [
 		text: 'Even with reduced capabilities, a mobile app can streamline out-of-office work.',
 	},
 ];
+
+export const numbersData = [
+	{
+		data: '98%',
+		text: 'Clients satisfaction',
+	},
+	{
+		data: '35%',
+		text: 'Decrease expenses',
+	},
+	{
+		data: '8.3M',
+		text: 'Money flows users',
+	},
+];
