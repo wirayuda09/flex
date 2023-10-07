@@ -9,8 +9,8 @@ type CardProps = {
 
 export default function Card({ author, role, text, profile }: CardProps) {
 	return (
-		<div className='min-w-500 max-sm:min-w-300 w-full border-l border-lineGray p-5 md:px-10'>
-			<div className='h-full w-full snap-start bg-[url("/assets/icons/quotes.svg")] bg-left-top bg-no-repeat'>
+		<div className='w-full min-w-[600px] snap-start border-l border-lineGray p-5 md:px-10'>
+			<div className='flex h-full w-full snap-start flex-col bg-[url("/assets/icons/quotes.svg")] bg-left-top bg-no-repeat'>
 				<div className='flex items-center gap-2'>
 					{[1, 2, 3, 4, 5].map((star) => (
 						<Image
@@ -22,10 +22,10 @@ export default function Card({ author, role, text, profile }: CardProps) {
 						/>
 					))}
 				</div>
-				<p className='bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5 text-lg font-normal text-transparent md:text-2xl'>
+				<p className='mt-auto bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5 text-lg font-normal text-transparent max-sm:max-w-350 md:text-2xl'>
 					&quot;{text}&quot;
 				</p>
-				<div className='flex items-center gap-5'>
+				<div className='inline-flex items-center gap-5'>
 					<Image
 						className='rounded-full object-contain'
 						src={profile}
@@ -35,7 +35,7 @@ export default function Card({ author, role, text, profile }: CardProps) {
 					/>
 					<div>
 						<h3 className='text-base font-semibold'>{author}</h3>
-						<p className='text-xs font-normal text-gray'>{role}</p>
+						<p className='truncate text-xs font-normal text-gray'>{role}</p>
 					</div>
 				</div>
 			</div>

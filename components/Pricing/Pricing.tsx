@@ -8,7 +8,7 @@ export default function Pricing() {
 			<h2 className='bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text pt-[14px] text-center text-3xl font-bold text-transparent md:text-5xl'>
 				Choose the right fit for your business
 			</h2>
-			<div className='mt-12 flex w-full flex-wrap justify-evenly'>
+			<div className='mt-12 flex w-full flex-wrap justify-evenly gap-y-10'>
 				{pricingPlans.map((pricing) => (
 					<Card key={pricing.title} {...pricing} />
 				))}
