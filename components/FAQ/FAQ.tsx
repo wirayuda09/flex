@@ -11,7 +11,7 @@ export default function FAQ() {
 				<h2 className='bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-[17px] text-4xl font-bold text-transparent md:text-5xl lg:text-6xl'>
 					Your SaaS solutions guide
 				</h2>
-				<p className='text-base leading-relaxed text-lineGray  md:text-xl'>
+				<p className='text-base leading-relaxed text-gray  md:text-xl'>
 					We understand that you may have some queries before making a decision,
 					and we are here to provide you with all the answers you need.
 				</p>

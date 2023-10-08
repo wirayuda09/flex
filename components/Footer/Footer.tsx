@@ -5,7 +5,7 @@ import { footerItems, socialAccounts } from '@/constant';
 export default function Footer() {
 	return (
 		<footer className='h-full w-full bg-linearFooter'>
-			<div className='flex h-full min-h-500 flex-wrap items-center justify-between gap-10 p-5 backdrop-blur md:p-10'>
+			<div className='flex h-full min-h-500 flex-wrap items-center justify-around gap-10 p-5 backdrop-blur md:p-10'>
 				<div className='max-w-xs'>
 					<h2 className='text-2xl font-extrabold'>Flex</h2>
 					<p className='py-5 text-sm text-gray'>

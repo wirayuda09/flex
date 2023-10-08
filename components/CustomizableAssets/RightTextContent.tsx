@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function RightTextContent() {
 	return (
 		<div className='w-full max-w-xl'>
-			<p className='text-sm text-primaryBlue'>Customizable Assets</p>
+			<p className='text-15 text-primaryBlue'>Customizable Assets</p>
 			<h3 className='bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text pt-[14px] text-3xl font-bold leading-relaxed text-transparent md:text-[46px]'>
 				Customize and publish anything quickly
 			</h3>

@@ -8,16 +8,16 @@ type FeatureCardProps = {
 
 export default function FeatureCard({ icon, text, title }: FeatureCardProps) {
 	return (
-		<div className='w-full max-w-350'>
+		<div className='max-w-350'>
 			<Image
-				className=' mb-auto object-contain'
+				className='object-contain'
 				src={icon}
 				width={100}
 				height={100}
 				alt={title}
 			/>
-			<h3 className=' pt-5 text-left text-2xl font-semibold'>{title}</h3>
-			<p className=' pt-3 text-left text-lg font-normal text-gray'>{text}</p>
+			<h3 className='pt-5 text-left text-2xl font-semibold'>{title}</h3>
+			<p className='pt-3 text-left text-lg text-gray'>{text}</p>
 		</div>
 	);
 }

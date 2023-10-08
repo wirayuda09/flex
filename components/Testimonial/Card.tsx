@@ -9,7 +9,7 @@ type CardProps = {
 
 export default function Card({ author, role, text, profile }: CardProps) {
 	return (
-		<div className='w-full min-w-[600px] snap-start border-l border-lineGray p-5 md:px-10'>
+		<div className='w-full min-w-423 snap-start border-l border-lineGray p-3 md:px-10'>
 			<div className='flex h-full w-full snap-start flex-col bg-[url("/assets/icons/quotes.svg")] bg-left-top bg-no-repeat'>
 				<div className='flex items-center gap-2'>
 					{[1, 2, 3, 4, 5].map((star) => (
@@ -22,7 +22,7 @@ export default function Card({ author, role, text, profile }: CardProps) {
 						/>
 					))}
 				</div>
-				<p className='mt-auto bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5 text-lg font-normal text-transparent max-sm:max-w-350 md:text-2xl'>
+				<p className='mt-auto bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5 text-sm text-transparent md:text-2xl'>
 					&quot;{text}&quot;
 				</p>
 				<div className='inline-flex items-center gap-5'>

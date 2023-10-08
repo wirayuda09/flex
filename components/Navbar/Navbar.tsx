@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import NavbarWrapper from './NavbarWrapper';
 
 export default function Navbar() {

@@ -45,7 +45,7 @@ export const features = [
 	{
 		icon: '/assets/icons/price-tag.svg',
 		title: 'Simple pricing',
-		text: 'Knowing the cost of acquiring customers and the cost of providing the service..',
+		text: 'Knowing the cost of acquiring customers and the cost of providing the service.',
 	},
 	{
 		icon: '/assets/icons/onBoarding.svg',

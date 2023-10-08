@@ -1,9 +1,9 @@
 'use client';
 
 import Image from 'next/image';
+import { useState } from 'react';
 
 import NavbarLists from './Lists';
-import { useState } from 'react';
 
 export default function NavbarWrapper() {
 	const [isOpen, setIsOpen] = useState<boolean>(false);

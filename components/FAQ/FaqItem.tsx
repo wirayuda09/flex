@@ -16,7 +16,7 @@ export default function FaqItem({ question }: { question: string }) {
 	};
 	return (
 		<li
-			className={`ease w-full border-b border-lineGray pb-5 text-xl font-medium text-lightGray transition-all duration-300 ${
+			className={`ease w-full border-b border-lineGray pb-5 text-sm font-medium text-lightGray transition-all duration-300 md:text-xl ${
 				isExpanded ? 'h-full' : 'min-h-30'
 			} `}
 		>

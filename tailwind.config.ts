@@ -46,7 +46,10 @@ const config: Config = {
 			},
 			minWidth: {
 				200: '200px',
+				300: '300px',
 				423: '423px',
+				600: '600px',
+				700: '700px',
 			},
 			minHeight: {
 				30: '30px',
@@ -59,6 +62,7 @@ const config: Config = {
 				200: '200px',
 				350: '350px',
 				400: '400px',
+				1440: '1440px',
 			},
 			keyframes: {
 				expanded: {

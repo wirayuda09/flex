@@ -3,7 +3,7 @@ import LeftContent from './LeftContent';
 
 export default function FinancialSnapshot() {
 	return (
-		<section className='mt-32 flex h-full w-full flex-wrap items-center justify-center gap-10 p-5'>
+		<section className='mt-28 flex h-full w-full flex-wrap items-center justify-around gap-10 p-5 md:p-0'>
 			<LeftContent />
 			<div className='w-full max-w-lg'>
 				<Image

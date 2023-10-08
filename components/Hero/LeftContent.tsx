@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-import { avatars } from '@/constant';
+import Users from './Users';
 
-export default function HeroText() {
+export default function LeftContent() {
 	return (
 		<div className='mt-20 max-w-2xl'>
 			<div className='absolute top-0 h-60 w-60 bg-primaryLightBlue bg-gradient-radial blur-[150px]'></div>
@@ -26,23 +26,7 @@ export default function HeroText() {
 						alt='arrow icon'
 					/>
 				</button>
-				<div className='mt-7 flex items-center gap-5'>
-					<div className=' flex items-center '>
-						{avatars.map((avatar) => (
-							<Image
-								className='h-12 w-12 rounded-full'
-								key={avatar}
-								src={avatar}
-								width={24}
-								height={24}
-								alt='profile'
-							/>
-						))}
-					</div>
-					<p className=' block text-base font-normal text-lightGray'>
-						+4.7K Users
-					</p>
-				</div>
+				<Users />
 			</div>
 		</div>
 	);

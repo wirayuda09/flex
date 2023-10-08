@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import StatisticTitle from './Title';
 
 export default function Statistic() {
@@ -21,7 +22,8 @@ export default function Statistic() {
 					</p>
 				</div>
 				<div className='relative w-full'>
-					<div className='absolute bottom-16 right-24 z-[9] h-32 w-32 overflow-hidden bg-primaryLightBlue blur-[100px]'></div>
+					<div className='absolute -top-28 left-0 z-[9] h-24 w-24 overflow-hidden bg-primaryLightBlue blur-[180px] md:h-32 md:w-32'></div>
+					<div className='absolute bottom-16 right-24 z-[9] h-32 w-32 overflow-hidden bg-primaryLightBlue blur-[120px]'></div>
 					<Image
 						className='mx-auto w-full object-cover'
 						src={'/assets/images/Graphic.png'}
