@@ -1,8 +1,9 @@
-import { Navbar } from '@/components';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import type { ReactNode } from 'react';
+
+import { Footer, Navbar } from '@/components';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 			>
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

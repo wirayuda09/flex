@@ -14,6 +14,8 @@ const config: Config = {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic':
 					'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				linearFooter:
+					'linear-gradient(120deg, rgba(43, 53, 87, 0.24) 11.44%, rgba(19, 20, 38, 0.00) 68.26%)',
 			},
 			colors: {
 				lightWhite: '#EBF1FF',
@@ -56,6 +58,7 @@ const config: Config = {
 			maxWidth: {
 				200: '200px',
 				350: '350px',
+				400: '400px',
 			},
 			keyframes: {
 				expanded: {
