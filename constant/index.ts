@@ -223,3 +223,18 @@ export const articles = [
 		thumbnail: '/assets/images/article-3.png',
 	},
 ];
+
+export const frequentlyAskedQuestions = [
+	{
+		question: 'What is SaaS, and how does it work?',
+	},
+	{
+		question: 'What benefits does SaaS offer for my business?',
+	},
+	{
+		question: 'Is my data secure and protected with your SaaS platform?',
+	},
+	{
+		question: 'How secure is my data on a SaaS website?',
+	},
+];
