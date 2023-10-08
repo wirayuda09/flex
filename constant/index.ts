@@ -238,3 +238,37 @@ export const frequentlyAskedQuestions = [
 		question: 'How secure is my data on a SaaS website?',
 	},
 ];
+
+export const socialAccounts = [
+	{
+		label: 'twitter',
+		icon: '/assets/icons/x.svg',
+	},
+	{
+		label: 'instagram',
+		icon: '/assets/icons/instagram.svg',
+	},
+	{
+		label: 'linkedln',
+		icon: '/assets/icons/linkedln.svg',
+	},
+	{
+		label: 'discord',
+		icon: '/assets/icons/discord.svg',
+	},
+];
+
+export const footerItems = [
+	{
+		label: 'Pages',
+		items: ['Home', 'Features', 'Pricing', 'Blog'],
+	},
+	{
+		label: 'Company',
+		items: ['Integration', 'Blog', 'Blog Article', 'Contact'],
+	},
+	{
+		label: 'Contact',
+		items: ['Login', 'Register', 'Privacy Policy', 'Support'],
+	},
+];

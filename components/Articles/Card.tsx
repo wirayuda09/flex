@@ -16,7 +16,7 @@ export default function Card({
 	title,
 }: CardProps) {
 	return (
-		<div className=' w-full max-w-md rounded-2xl border border-lineGray p-3 md:p-6'>
+		<div className='w-full max-w-400 rounded-2xl border border-lineGray p-3 md:p-6'>
 			<Image
 				className='rounded-2xl object-cover'
 				src={thumbnail}

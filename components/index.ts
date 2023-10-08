@@ -11,3 +11,4 @@ export { default as Testimonial } from '@/components/Testimonial/Testimonial';
 export { default as FeaturedCompany } from '@/components/FeaturedCompany/FeaturedCompany';
 export { default as FinancialSnapshot } from '@/components/FinancialSnapshot/FinancialSnapshot';
 export { default as CustomizableAssets } from '@/components/CustomizableAssets/CustomizableAssets';
+export { default as Footer } from '@/components/Footer/Footer';
