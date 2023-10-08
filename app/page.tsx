@@ -10,6 +10,7 @@ import {
 	CustomizableAssets,
 	Integration,
 	Articles,
+	FAQ,
 } from '@/components';
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 			<Pricing />
 			<Integration />
 			<Articles />
+			<FAQ />
 		</>
 	);
 }

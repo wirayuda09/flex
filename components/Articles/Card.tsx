@@ -34,10 +34,10 @@ export default function Card({
 					</div>
 				))}
 			</div>
-			<h3 className='bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5  text-left text-xl font-medium text-transparent md:text-3xl'>
+			<h3 className='border-b border-dashed border-lineGray bg-gradient-to-r from-lightWhite to-lightBlue bg-clip-text py-5 text-left text-xl font-medium text-transparent md:text-3xl'>
 				{title}
 			</h3>
-			<p className='text-sm font-normal text-gray'>
+			<p className='pt-5 text-sm font-normal text-gray'>
 				<span>{createdAt} </span> &#8226;
 				<span>{minutes}</span>
 			</p>

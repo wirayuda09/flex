@@ -1,12 +1,13 @@
+export { default as FAQ } from '@/components/FAQ/FAQ';
 export { default as Hero } from '@/components/Hero/Hero';
 export { default as Navbar } from '@/components/Navbar/Navbar';
 export { default as Pricing } from '@/components/Pricing/Pricing';
 export { default as Features } from '@/components/Features/Features';
+export { default as Articles } from '@/components/Articles/Articles';
 export { default as Statistic } from '@/components/Statistic/Statistic';
 export { default as NumbersData } from '@/components/NumbersData/NumbersData';
+export { default as Integration } from '@/components/Integration/Integration';
 export { default as Testimonial } from '@/components/Testimonial/Testimonial';
 export { default as FeaturedCompany } from '@/components/FeaturedCompany/FeaturedCompany';
 export { default as FinancialSnapshot } from '@/components/FinancialSnapshot/FinancialSnapshot';
 export { default as CustomizableAssets } from '@/components/CustomizableAssets/CustomizableAssets';
-export { default as Integration } from '@/components/Integration/Integration';
-export { default as Articles } from '@/components/Articles/Articles';

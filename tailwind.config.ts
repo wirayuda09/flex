@@ -57,6 +57,21 @@ const config: Config = {
 				200: '200px',
 				350: '350px',
 			},
+			keyframes: {
+				expanded: {
+					from: {
+						height: '0px',
+						opacity: '0',
+					},
+					to: {
+						height: '100%',
+						opacity: '1',
+					},
+				},
+			},
+			animation: {
+				expand: 'expanded 500ms ease forwards',
+			},
 		},
 	},
 	plugins: [],
