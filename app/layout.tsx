@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-	title: 'Flex',
+	title: 'Flex-design',
 	description: 'Powerful solutions for your business',
 };
 
